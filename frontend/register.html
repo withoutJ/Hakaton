@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registacija | HZS</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1 class="title">HAKATON ZA SREDNJOŠKOLCE</h1>
+		<div class="menu">
+			<nav>
+				<ul class="menu">
+					<li><a href="index.html">POČETNA</a></li>
+<<<<<<< HEAD
+					<li><a href="all.html">LISTA TIMOVA</a></li>
+=======
+					<li><a href="#">LISTA TIMOVA</a></li>
+>>>>>>> 0b3595e4a25cda3304f69126b38dc49e8615d727
+					<li><a href="login.html">PRIJAVA</a></li>
+					<li><a href="register.html">REGISTRACIJA</a></li>
+				</ul>
+			</nav><!-- end of nav -->
+		</div><!-- end of .menu -->
+	</header><!-- end of header -->
+	<div class="container">
+		<form id="deo1">
+			<div class="osnovno">
+					<input type="text" name="name" placeholder="Ime tima" class="form-control" id="ime">
+					<input type="text" name="description" placeholder="Opis tima" class="form-control" id="opis">
+					<input type="text" name="photo_url" placeholder="Link ka slici tima" class="form-control" id="username">
+					<input type="text" name="password" placeholder="Lozinka" class="form-control" id="password">
+			</div>
+			<br>
+			<div id="clanovi">
+				<div class="row">
+					<div class="col" id="cl1">
+						<p>Prvi član</p>
+						<input type="text" name="first_name" id="ime1" class="form-control" placeholder="Ime">
+						<input type="text" name="last_name" id="prezime1" class="form-control" placeholder="Prezime">
+						<input type="text" name="email" id="email1" class="form-control" placeholder="Email">
+						<input type="text" name="phone_number" id="telefon1" class="form-control" placeholder="Broj telefona">
+						<input type="text" name="school" id="skola1" class="form-control" placeholder="Škola">
+						<input type="text" name="city" id="mesto1" class="form-control" placeholder="Mesto">
+					</div>
+					<div class="col" id="cl2">
+						<p>Drugi član</p>
+						<input type="text" name="first_name" id="ime2" class="form-control" placeholder="Ime">
+						<input type="text" name="last_name" id="prezime2" class="form-control" placeholder="Prezime">
+						<input type="text" name="email" id="email2" class="form-control" placeholder="Email">
+						<input type="text" name="phone_number" id="telefon2" class="form-control" placeholder="Broj telefona">
+						<input type="text" name="school" id="skola2" class="form-control" placeholder="Škola">
+						<input type="text" name="city" id="mesto2" class="form-control" placeholder="Mesto">
+					</div>
+					<div class="col" id="cl3">
+						<p>Treći član</p>
+						<input type="text" name="first_name" id="ime3" class="form-control" placeholder="Ime">
+						<input type="text" name="last_name" id="prezime3" class="form-control" placeholder="Prezime">
+						<input type="text" name="email" id="email3" class="form-control" placeholder="Email">
+						<input type="text" name="phone_number" id="telefon3" class="form-control" placeholder="Broj telefona">
+						<input type="text" name="school" id="skola3" class="form-control" placeholder="Škola">
+						<input type="text" name="city" id="mesto3" class="form-control" placeholder="Mesto">
+					</div>
+					<div class="col" id="cl4">
+						<p>Četvrti član</p>
+						<input type="text" name="first_name" id="ime4" class="form-control" placeholder="Ime">
+						<input type="text" name="last_name" id="prezime4" class="form-control" placeholder="Prezime">
+						<input type="text" name="email" id="email4" class="form-control" placeholder="Email">
+						<input type="text" name="phone_number" id="telefon4" class="form-control" placeholder="Broj telefona">
+						<input type="text" name="school" id="skola4" class="form-control" placeholder="Škola">
+						<input type="text" name="city" id="mesto4" class="form-control" placeholder="Mesto">
+					</div>
+
+				</div>
+				<div class="row">
+					<input type="submit" value="Registrujte se!" class="btn btn-dark">
+				</div>
+				<div id="napomene">
+					<p>NAPOMENA: Ukoliko vaš tim ima tri člana, podatke o članovima unesite u prve tri kolone!</p>
+					<p id="izlaz"></p>
+				</div>
+			</div>
+		</form>
+	</div>
+	<footer>
+		<hr>
+		<p>©2018. All rights reserved to <a href="#">GameOfCodes</a>.</p>
+	</footer>
+	<script type="text/javascript" src="register.js"></script>
+</body>
+</html>

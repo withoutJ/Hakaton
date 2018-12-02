@@ -1,0 +1,220 @@
+@import url('bootstrap.css');
+
+h1, h2, a, ul, li, p, hr {
+	margin: 0;
+	padding: 0;
+}
+
+.container {width: 1140px;}
+
+p {color: white;}
+
+header a {color: white;}
+
+a {color: #004a00;}
+
+hr 
+{
+	margin: 10px auto 0;
+	width: 1140px;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #004a00;
+}
+
+a h1 {color: white;}
+
+body {background: #181818;}
+
+header {
+	width: 1140px;
+	height: auto;
+	margin: 50px auto;
+}
+
+header h1 {
+	font-size: 4em;
+	color: white;
+	padding: 10px 0 0;
+	text-align: center;
+}
+
+header h2 {
+	font-size: 1.5em;
+	color: white;
+	padding: 0 0 10px;
+	text-align: center;
+}
+
+.container h2 {
+	font-size: 2.5em;
+	color: white;
+}
+
+.menu {
+	height: 50px;
+	background: #4d4d4d;
+	margin: 5px auto;
+}
+
+.menu ul {
+	width: 1140px;
+	margin: 5px auto;
+	text-align: center;
+}
+
+.menu li {
+	display: inline;
+	padding: 0 15px;
+	line-height: 50px;
+}
+
+.news .left {
+	width: 570px;
+	float: left;
+}
+
+.news .right {
+	margin-left: 170px;
+	text-align: right;
+	float: right;
+}
+
+.info p {display: inline;}
+
+article .title {
+	font-size: 1em;
+	color: white;
+}
+
+.single-title {font-size: 3em;}
+
+.date {
+	line-height: 30px;
+	display: inline;
+}
+
+.single-date {
+	font-size: 20px;
+	display: inline;
+}
+
+.author{font-size: 20px;}
+
+.single-info{
+	height: auto;
+	margin: 5px 0;
+}
+
+
+.container .page-navigation {
+	display: inline-block;
+	height: 21px;
+}
+
+.page-navigation .older {
+	float: left;
+	width: 100px;
+}
+
+.page-navigation .newer {
+	float: right;
+	width: 100px;
+}
+
+.page-navigation p {
+	width: 100px;
+	font-size: 15px;
+	margin-right: 10px;
+	display: inline;
+}
+
+.navigation-container 
+{
+	width: 1140px;
+	height: 21px;
+	margin: 0 auto;
+}
+
+.author {display: inline;}
+
+.text {
+	width: 570px;
+	margin: 0;
+	float: left;
+}
+
+.message {
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	padding:  15px 0;
+}
+
+.message-small {
+	text-align: center;
+	padding: 10px 0;
+}
+
+li 
+{
+	text-decoration: none;
+}
+
+.clearfix {clear: both;}
+
+.left {float: left;}
+
+.right: {float: right;}
+
+footer {
+	width: 1140px;
+	height: auto;
+	margin: 0 auto;
+}
+
+form {text-align: center;}
+
+.center {text-align: center;}
+
+#login .btn {
+	width: 170px;
+	font-size: 15px;
+}
+
+#login .form-control {
+	width: 170px;
+	font-size: 15px;
+	margin: 0 auto;
+}
+
+.row .btn {
+	font-size: 15px;
+	width: 100%;
+	margin: 15px 0;
+}
+
+.form-control {
+	font-size: 15px; 
+	background-color: #181818;
+	height: 30px;
+}
+
+.br {
+	float: left;
+}
+
+label {
+	color: white;
+}
+
+.br .btn {
+	width: 80px;
+}
+
+#dugmebre .btn {
+	font-size: 15px;
+	width: 100%;
+}
